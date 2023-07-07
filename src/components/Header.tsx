@@ -1,5 +1,4 @@
 import { signIn, signOut, useSession } from "next-auth/react";
-import Image from "next/image";
 
 export const Header = () => {
   const { data: sessionData } = useSession();
@@ -21,8 +20,6 @@ export const Header = () => {
                 <img
                   src={sessionData?.user?.image ?? ""}
                   alt={sessionData?.user?.name ?? ""}
-                  //   width={100}
-                  //   height={100}
                 />
               </div>
             </label>
