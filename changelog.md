@@ -7,3 +7,6 @@
 
 4. Enabling Github Auth with token and ID
 5. Changing from Discord Provider Auth to Github
+6. Signed in with Github when started app
+
+7.
