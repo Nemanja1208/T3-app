@@ -24,12 +24,9 @@ export const Header = () => {
               </div>
             </label>
           ) : (
-            <button
-              className="btn-ghost rounded-btn btn"
-              onClick={() => void signIn()}
-            >
+            <a href="https://t3-app-delta-neon.vercel.app//api/auth/signin">
               Sign in
-            </button>
+            </a>
           )}
         </div>
       </div>
