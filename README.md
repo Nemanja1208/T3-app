@@ -1,6 +1,7 @@
 ## T3 App using Prisma, tRPC, Next.js with Typescript, Github Auth, Supabase, DaisyUI and Tailwind
 
 Steps you need to do in order to test this app : 
+
 0. Clone repo and install deps ```npm i```
 
 1. Register/Log in to Supabase
